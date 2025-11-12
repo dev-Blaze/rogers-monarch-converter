@@ -1,3 +1,4 @@
+
 # Rogers to Monarch CSV Converter
 
 A browser-based CSV conversion tool that transforms Rogers credit card transaction exports into Monarch Money compatible format. The app runs entirely in your browser - **your financial data never leaves your computer**.
@@ -154,4 +155,4 @@ MIT License - Feel free to use and modify as needed.
 
 ---
 
-Made with ❤️
+Made with ❤️ using Github Copilot & Claude 4.5 Sonnet
