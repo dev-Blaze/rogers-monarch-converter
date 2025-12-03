@@ -154,5 +154,3 @@ src/
 MIT License - Feel free to use and modify as needed.
 
 ---
-
-Made with ❤️ using Github Copilot & Claude 4.5 Sonnet
