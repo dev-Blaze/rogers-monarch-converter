@@ -36,9 +36,10 @@ function App() {
 
           // When all files are parsed, update state and convert
           if (parsedCount === filesArray.length) {
-            setTestFiles(prev => [...prev, ...newTestFiles]);
+            const updatedFiles = [...testFiles, ...newTestFiles];
+            setTestFiles(updatedFiles);
             // Auto-convert if we already have the target file
-            performConversion([...testFiles, ...newTestFiles], targetData);
+            performConversion(updatedFiles, targetData);
           }
         },
         error: (error) => {
